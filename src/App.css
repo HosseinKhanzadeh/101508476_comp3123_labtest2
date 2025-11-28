@@ -1,0 +1,116 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* ---- Weather App Styling ---- */
+
+.weather-card {
+  margin: 22px auto;
+  padding: 20px 18px;
+  max-width: 350px;
+  background: #ffffffdd;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.weather-icon-area {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 12px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-icon {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.weather-details {
+  margin: 18px auto;
+  padding: 13px;
+  max-width: 350px;
+  background: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.weather-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.weather-details li {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.search-bar {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  margin-right: 6px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #333;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.success-city {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.no-data {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.last-updated {
+  margin-top: 12px;
+  font-size: 14px;
+  color : #555;
+}
